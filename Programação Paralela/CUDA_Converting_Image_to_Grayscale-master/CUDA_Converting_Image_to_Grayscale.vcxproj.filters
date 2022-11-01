@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="src\Images_RGB2GRAY.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\imageLoad.cpp" />
+    <ClCompile Include="src\imageWrite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\stb_image.h" />
+    <ClInclude Include="includes\stb_image_write.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{5def3e45-e690-436c-be3a-067a24db306f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Scripts\mdd_toolbar.png">
+      <Filter>Scripts</Filter>
+    </Image>
+    <Image Include="Scripts\mdd_modal_background.png">
+      <Filter>Scripts</Filter>
+    </Image>
+    <Image Include="Scripts\mdd_gripper.png">
+      <Filter>Scripts</Filter>
+    </Image>
+    <Image Include="Scripts\mdd_ajax_loader.gif">
+      <Filter>Scripts</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\mdd_styles.css">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\mdd_help.htm">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Scripts\MarkdownDeepLib.min.js">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Scripts\MarkdownDeep Quick Reference.txt">
+      <Filter>Scripts</Filter>
+    </Text>
+    <Text Include="Scripts\MarkdownDeep License.txt">
+      <Filter>Scripts</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
